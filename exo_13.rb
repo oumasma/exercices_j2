@@ -1,13 +1,13 @@
 puts "Donne-moi ton année de naissance "
-born_year = gets.chomp
+born_year = gets.chomp.to_i
+n = 2020
+x = born_year
 
-
-born_year.to_i.each do |born_year|
-puts born_year  
-
-
-
-end
+while x <= n #tant que
+	puts x
+	x += 1
+	end
+	
 
 
 
